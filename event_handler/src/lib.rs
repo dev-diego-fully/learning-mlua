@@ -1,5 +1,6 @@
 mod event_handler;
 mod lua_event_handler;
+mod event_set;
 
 use crate::lua_event_handler::LuaEventHandler;
 use mlua::prelude::*;
