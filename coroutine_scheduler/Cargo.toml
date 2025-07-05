@@ -1,0 +1,11 @@
+[package]
+name = "coroutine_scheduler"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+mlua = { version = "0.10", features = ["lua54", "module"] }
+rand = "0.9"
